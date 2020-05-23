@@ -18,8 +18,8 @@
                     @foreach($products as $product)
                         <div class="card col-md-4 p-2 m-3">
                             <div class="card-body">
-                                <h5 class="card-title">{{ $product->note }}</h5>
-                                <p class="card-text">{{ $product->name }}</p>
+                                <h3 class="card-title">{{ $product->name }}</h3>
+                                <p class="card-text">{{ $product->price }}</p>
                                 <a href="/product/{{ $product->id }}" class="btn btn-primary stretched-link">Просмотреть</a>
                             </div>
                         </div>

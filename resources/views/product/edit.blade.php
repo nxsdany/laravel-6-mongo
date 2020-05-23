@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Update product</div>
+                <h2 class="panel-heading py-2">Update product</h2>
                 <div class="panel-body">
 					<div class="row">
 				     	@if($errors->any())
