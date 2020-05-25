@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
 
+use Illuminate\Http\Request;
 use App\Product;
+use App\Review;
 
 class ProductController extends Controller
 {
@@ -51,10 +52,9 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        // $lectures = Lecture::all();
-        // $tests = Test::all();
     	$product = Product::where('_id', $id)->first();
-		return view('product.show', compact('product', 'id'));
+        $reviews = $product->reviews;
+		return view('product.show', compact('product', 'id', 'reviews'));
     }
 
     /**
@@ -67,7 +67,6 @@ class ProductController extends Controller
     {
         $product = Product::where('_id', $id)->first();
         return view('product.edit',compact('product','id'));
-
     }
 
     /**

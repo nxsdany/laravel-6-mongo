@@ -12,11 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::post('/product/store', 'ProductController@store')->name('product_store');
 Route::resource('product', 'ProductController');
+Route::post('/review/store/{id}', 'ReviewController@store')->name('review_store');
+Route::resource('review', 'ReviewController');
 
 Auth::routes();
 

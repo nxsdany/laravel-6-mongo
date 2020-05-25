@@ -25,10 +25,10 @@
 					                <input type="text" name="name" class="form-control" placeholder="Имя">
 					            </div>
 					            <div class="form-group">
-					            	<label for="price">Стоимость (руб.)</label>
+					            	<label for="price">Стоимость </label>
 					                <input type="text" name="price" class="form-control">
 					            </div>
-{{-- 					            <div class="form-group">
+								{{-- <div class="form-group">
 					                <input type="checkbox" value="1" checked name="status">
 					            	<label for="status">Опубликовать</label>
 					            </div> --}}
