@@ -1,0 +1,8 @@
+{"_id":{"$oid":"5ec7dcaf0bedebb94df1601a"},"name":"laptop","price":32100.0}
+{"_id":{"$oid":"5ec7dcc90bedebb94df1601b"},"name":"smartphone","price":"10000","updated_at":{"$date":"2020-05-22T22:36:04.454Z"}}
+{"_id":{"$oid":"5ec7dcf20bedebb94df1601c"},"name":"powerbank","price":990.0}
+{"_id":{"$oid":"5ec7dd120bedebb94df1601d"},"name":"phonecase","price":400.0}
+{"_id":{"$oid":"5ec83d6d77230000c4007106"},"name":"playstation","price":"23909","updated_at":{"$date":"2020-05-22T21:00:29.036Z"},"created_at":{"$date":"2020-05-22T21:00:29.036Z"}}
+{"_id":{"$oid":"5ec859d877230000c400710c"},"name":"bbq","price":"2312","updated_at":{"$date":"2020-05-22T23:01:44.936Z"},"created_at":{"$date":"2020-05-22T23:01:44.936Z"}}
+{"_id":{"$oid":"5ec85aba77230000c400710d"},"name":"smartwatch","price":"4900","updated_at":{"$date":"2020-05-22T23:05:30.975Z"},"created_at":{"$date":"2020-05-22T23:05:30.975Z"}}
+{"_id":{"$oid":"5ecb1698533200002f004d07"},"name":"iphone","price":"89900","updated_at":{"$date":"2020-05-25T00:51:36.29Z"},"created_at":{"$date":"2020-05-25T00:51:36.29Z"}}

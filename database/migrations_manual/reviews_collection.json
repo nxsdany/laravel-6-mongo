@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5ec90f098f5e0000a1000356"},"text":"213","rating":"5","id_user":null,"id_product":false,"updated_at":{"$date":"2020-05-23T11:54:49.919Z"},"created_at":{"$date":"2020-05-23T11:54:49.919Z"}}
+{"_id":{"$oid":"5ec92de48f5e0000a1000357"},"text":"всё","rating":"4","id_user":null,"id_product":null,"updated_at":{"$date":"2020-05-23T14:06:28.951Z"},"created_at":{"$date":"2020-05-23T14:06:28.951Z"}}
+{"_id":{"$oid":"5ec934278f5e0000a1000358"},"text":"Замечательно","rating":"5","id_user":null,"id_product":false,"updated_at":{"$date":"2020-05-24T21:51:42.209Z"},"created_at":{"$date":"2020-05-23T14:33:11.887Z"}}
+{"_id":{"$oid":"5ecadf98533200002f004d03"},"text":"Классный","rating":"5","id_user":null,"id_product":"5ec7dcaf0bedebb94df1601a","updated_at":{"$date":"2020-05-24T22:29:20.125Z"},"created_at":{"$date":"2020-05-24T20:56:56.354Z"}}
+{"_id":{"$oid":"5ecaf73e533200002f004d05"},"text":"норм","rating":"4","id_product":null,"updated_at":{"$date":"2020-05-24T22:37:50.979Z"},"created_at":{"$date":"2020-05-24T22:37:50.979Z"}}
+{"_id":{"$oid":"5ecb15d1533200002f004d06"},"text":"последний","rating":"2","id_product":"5ec7dcc90bedebb94df1601b","updated_at":{"$date":"2020-05-25T00:48:17.285Z"},"created_at":{"$date":"2020-05-25T00:48:17.285Z"}}
